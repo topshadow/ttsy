@@ -1,0 +1,21 @@
+{
+  "name": "ttsy",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/topshadow/tutusy.git"
+    }
+  ]
+}
